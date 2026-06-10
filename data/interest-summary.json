@@ -1,0 +1,37 @@
+{
+  "totalResponses": 35,
+  "lastUpdated": "2026-03-16 14:40:06",
+  "data": {
+    "What is your principal activity?": {
+      "Clinician": 20,
+      "Researcher": 10,
+      "Trainee": 4,
+      "Technologist": 1
+    },
+    "How interested are you in the topic of EEG-fMRI in epilepsy?": {
+      "5": 27,
+      "4": 8
+    },
+    "How familiar are you with EEG-fMRI in epilepsy?": {
+      "Practitioner: Regularly involved in acquisition/analysis": 13,
+      "Expert: Lead investigator / Master Shifu experience": 8,
+      "Student: Limited theoretical knowledge": 7,
+      "Assistant: I have helped with a few studies": 4,
+      "Newbie: No experience yet": 3
+    },
+    "Tell us what you are mainly excited to learn about": {
+      "Clinical: Applications and results interpretation": 27,
+      "Discovery: Research findings and future directions": 27,
+      "Methodology: Technical aspects and setup": 25,
+      "Real Talk: Challenges and limitations of the method": 23,
+      "Other submitted responses": 1
+    },
+    "What do you see as the main challenges in using EEG-fMRI for epilepsy?": {
+      "EEG post-processing analysis": 16,
+      "Equipment accessibility": 14,
+      "EEG-fMRI set-up": 13,
+      "fMRI post-processing analysis": 12,
+      "Other submitted responses": 7
+    }
+  }
+}

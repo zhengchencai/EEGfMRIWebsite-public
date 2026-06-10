@@ -1,0 +1,10 @@
+.DS_Store
+*.bak
+server.log
+
+# Keep raw response data and local workflow files out of the public repo.
+private/
+data/response.csv
+process_responses.py
+claude.md
+.claude/
