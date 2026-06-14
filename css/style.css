@@ -716,10 +716,17 @@ html {
 
 .registration-fee {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    line-height: 1.6;
+}
+
+.fee-main {
+    display: flex;
     align-items: baseline;
     gap: 0.5rem;
     font-size: clamp(18px, 2vw, 24px);
-    line-height: 1.6;
 }
 
 .fee-label {
@@ -730,6 +737,12 @@ html {
 .fee-amount {
     font-weight: 600;
     color: var(--text-gray);
+}
+
+.fee-note {
+    color: var(--text-gray);
+    font-size: clamp(15px, 1.5vw, 18px);
+    font-style: italic;
 }
 
 .registration-includes {
