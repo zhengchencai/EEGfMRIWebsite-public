@@ -551,6 +551,50 @@ html {
     display: block;
 }
 
+.program-list.poster-list li {
+    display: grid;
+    grid-template-columns: 3ch minmax(0, 1fr);
+    column-gap: 1.5rem;
+    align-items: baseline;
+}
+
+.program-list.poster-list li .time-slot {
+    width: auto;
+    margin-right: 0;
+    text-align: left;
+}
+
+.program-list.poster-list li .session-content {
+    min-width: 0;
+}
+
+@media (max-width: 640px) {
+    .program-list li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.15rem;
+    }
+
+    .program-list li .time-slot {
+        width: auto;
+        margin-right: 0;
+        text-align: left;
+    }
+
+    .program-list.poster-list li {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.15rem;
+    }
+
+    .program-list.poster-list li .time-slot {
+        width: auto;
+        margin-right: 0;
+        text-align: left;
+    }
+}
+
 /* Abstracts */
 .abstract-list-container {
     margin-bottom: 2rem;
